@@ -3,6 +3,8 @@ import org.example.Employee;
 import java.util.Scanner;
 import java.util.Locale;
 
+// teste pro github //
+
 public class Main {
     public static void main() {
         Locale.setDefault(Locale.US);
@@ -13,7 +15,7 @@ public class Main {
 
         System.out.print("Put the salary of the Employee: ");
         roger.baseSalary = sc.nextDouble();
-        System.out.print("Put the boñus: ");
+        System.out.print("Put the bonus: ");
         roger.bonus = sc.nextDouble();
 
         System.out.printf("Salary: %.2f \n", roger.finalSalary());
