@@ -13,7 +13,7 @@ public class Main {
 
         System.out.print("Put the salary of the Employee: ");
         roger.baseSalary = sc.nextDouble();
-        System.out.print("Put the bonus: ");
+        System.out.print("Put the boñus: ");
         roger.bonus = sc.nextDouble();
 
         System.out.printf("Salary: %.2f \n", roger.finalSalary());
